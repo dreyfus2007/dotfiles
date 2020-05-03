@@ -1,0 +1,104 @@
+2020-05-02	rc.xml KEYBINDS
+-------------------------------
+
+ 0	W-1           				GoToDesktop
+ 1	W-2           				GoToDesktop
+ 2	W-3           				GoToDesktop
+ 3	W-4           				GoToDesktop
+ 4	W-5           				GoToDesktop
+ 5	W-6           				GoToDesktop
+ 6	W-7           				GoToDesktop
+ 7	W-8           				GoToDesktop
+ 8	W-9           				GoToDesktop
+ 9	W-0           				GoToDesktop
+10	C-W-1         				SendToDesktop
+11	C-W-2         				SendToDesktop
+12	C-W-3         				SendToDesktop
+13	C-W-4         				SendToDesktop
+14	C-W-5         				SendToDesktop
+15	C-W-6         				SendToDesktop
+16	C-W-7         				SendToDesktop
+17	C-W-8         				SendToDesktop
+18	C-W-9         				SendToDesktop
+19	C-W-0         				SendToDesktop
+20	A-Tab         				NextWindow
+21	W-Tab         				NextWindow
+22	C-A-Right     				DesktopNext
+23	C-A-Left      				DesktopPrevious
+24	mod4-Left     				GoToDesktop
+25	mod4-Right     			GoToDesktop
+26	mod4-Up       				SendToDesktop
+27	mod4-Down     				SendToDesktop
+28	mod4-d        				ToggleShowDesktop
+29	mod4-Super_R   			MoveResizeTo
+30	A-KP_5        				ToggleMaximize
+31	A-KP_0        				Iconify
+32	A-KP_4        				Unmaximize
+33	A-KP_6        				Unmaximize
+34	A-KP_8        				Unmaximize
+35	A-KP_2        				Unmaximize
+36	A-KP_7        				Unmaximize
+37	A-KP_9        				Unmaximize
+38	A-KP_1        				Unmaximize
+39	A-KP_3        				Unmaximize
+40	A-KP_Add      				NextWindow
+41	A-KP_Subtract  			NextWindow
+42	A-Tab         				NextWindow
+43	A-S-Tab       				PreviousWindow
+44	S-W-Left      				SendToDesktopLeft
+45	S-W-Right     				SendToDesktopRight
+46	S-W-Up        				SendToDesktopUp
+47	S-W-Down      				SendToDesktopDown
+48	A-Escape      				Lower
+49	XF86AudioRaiseVolume	pamixer -i 2
+50	XF86AudioLowerVolume	pamixer -d 2
+51	XF86AudioMute  			pamixer -t
+52	XF86AudioStop  			playerctl stop
+53	XF86AudioPlay  			playerctl play-pause
+54	XF86AudioPrev  			playerctl previous
+55	XF86AudioNext  			playerctl next
+56	XF86MonBrightnessUp	xbacklight +10
+57	XF86MonBrightnessDown	xbacklight -10
+58	C-Space       				sgtk-menu
+59	Print         				scrot 'screenshot_%Y%m%d-%H%M%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir P.....
+60	A-Print       				scrot -d 5 'screenshot_%Y%m%d-%H%M%S_$wx$h.png' -e 'mv $f $$(xdg-user-.....
+61	W-f           				exo-open --launch FileManager
+62	W-t           				kitty
+63	W-w           				exo-open --launch WebBrowser
+64	W-e           				xed
+65	C-A-m         				xfce4-settings-manager
+66	W-m           				deadbeef
+67	W-v           				pavucontrol
+68	W-s           				skippy-xd
+69	W-Return      				kitty
+70	W-KP_Enter     			kitty
+71	C-Escape      				lockscreen -- scrot
+72	W-Escape      				xkill
+73	A-F1          				jgmenu_run
+74	A-F2          				rofr.sh -r
+75	A-F4          				Close
+76	A-F5          				Iconify
+77	A-F6          				ToggleMaximize
+78	A-F8          				ToggleDecorations
+79	W-d           				ToggleShowDesktop
+80	W-b           				ToggleDecorations
+81	A-r           				Resize
+82	A-m           				Move
+83	S-W-q         				Close
+84	W-space       				root-menu
+85	A-space       				client-menu
+86	W-KP_1        				UnmaximizeFull
+87	W-KP_2        				UnmaximizeFull
+88	W-KP_3        				UnmaximizeFull
+89	W-KP_4        				UnmaximizeFull
+90	W-KP_5        				MaximizeFull
+91	W-KP_6        				UnmaximizeFull
+92	W-KP_7        				UnmaximizeFull
+93	W-KP_8        				UnmaximizeFull
+94	W-KP_9        				UnmaximizeFull
+95	W-Right       				UnmaximizeFull
+96	W-Left        				UnmaximizeFull
+97	W-Up          				MaximizeFull
+98	W-Down        				UnmaximizeFull
+99	W-A-Left      				UnmaximizeFull
+100	W-A-Right     				UnmaximizeFull
